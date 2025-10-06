@@ -25,12 +25,12 @@ export default function VendorDetailPage() {
 
   useEffect(() => {
     loadSlots();
-    setSelectedSlot(null); // reset selection when date changes
+    setSelectedSlot(null); 
   }, [id, date]);
 
-  // Disable booked slot in grid
+  
   const handleSelect = (slot: string) => {
-    if (bookedSlot && bookedSlot === slot) return; // prevent selecting already booked slot
+    if (bookedSlot && bookedSlot === slot) return;
     setSelectedSlot(slot);
   };
 

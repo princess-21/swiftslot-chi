@@ -1,5 +1,4 @@
-// LOADING SPINNER (src/components/LoadingSpinner.tsx)
-// ============================================
+
 
 export default function LoadingSpinner() {
   return (
