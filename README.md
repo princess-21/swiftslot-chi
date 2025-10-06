@@ -12,11 +12,11 @@ A web-based booking system for vendors, allowing users to view availability and 
 
 ### Installation
 
-```bash
+
 cd api
 npm install
 
----
+
 
 ## Backend Setup (api/)
 
@@ -28,7 +28,7 @@ npm install
 
 ### Installation
 
-```bash
+
 cd api
 npm install
 
@@ -54,7 +54,6 @@ npm install
 
 Running the Frontend
 npm run dev
-
 
 The frontend will be available at:
 http://localhost:5173 (or the port shown in terminal)
